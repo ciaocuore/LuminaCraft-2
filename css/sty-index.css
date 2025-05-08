@@ -1,0 +1,61 @@
+/* Estilo para cada noticia */
+.noticia {
+    padding: 1.5rem;
+    background: #fff1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilo de la sección de noticias */
+#noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+/* Estilo para las noticias al pasar el cursor */
+.noticia:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de los títulos de las noticias */
+.noticia h3 {
+    font-size: 1.8rem;
+    color: #ff6600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* Estilo de los párrafos de las noticias */
+.noticia p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Estilo del titulo de la noticia */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* estilo de las secciones */
+section {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 70rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los títulos */
+section h2 {
+    color: #ffcc00;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
