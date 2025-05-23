@@ -1,0 +1,117 @@
+/* Estilos de cuerpo que se aplica para todos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fbfcf5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo del encabezado que se aplican a todos */
+header {
+    background: linear-gradient(135deg, #6d6d6d, #ffd21f);
+    display: flex;
+    color: #333;
+    padding: 1rem 2rem;
+    position: sticky;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+/* Estilo para el logo */
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0;
+}
+
+/* Estilo para barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Estilos para los enlaces de navegación */
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.6rem;
+
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #ffd966;
+    color: #000;
+}
+
+/* Estilo del contenido */
+main {
+    padding: 2rem;
+}
+
+/* Estilo del encabezado */
+h2 {
+    color: #ffcc00;
+    margin-bottom: 1rem;
+}
+
+/* Estilo del pie de pagina */
+footer {
+    background-color: #333;
+    color: #fefefe;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Estilos de  los links de pie de pagina */
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de los logos de redes y animación */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons img {
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.5);
+}
+
+/* Estilo para el botón de reinicio */
+#reset {
+    float: right;
+}
+
+/* Estilo para la información de la empresa */
+.company-info {
+    text-align: center;
+}
+
+/* Estilo para el texto de copyright */
+#copy23 {
+    text-align: center;
+}

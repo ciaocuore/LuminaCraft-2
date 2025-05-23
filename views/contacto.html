@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuminaCraft - Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/sty-contacto.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Logotipo y barra de navegación -->
+        <img src="../images/logo/logo-lumina.png" alt="LuminaCraft" width="130" height="130">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección de información de contacto -->
+        <section class="contact-info">
+            <h2>Contáctenos</h2>
+            <p>¿Tiene preguntas o necesitas ayuda para transformar tus espacios? Estamos aquí para ayudarte. No dudes en
+                ponerte en contacto con nosotros a través de los siguientes medios:</p>
+            <p><strong>Dirección:</strong> C. la Iglesia, 3, Huerta del Rey</p>
+            <p><strong>Teléfono:</strong> +34 123 456 789</p>
+            <p><strong>Email:</strong> contacto@luminacraft.com</p>
+            <!-- Horario de la empresa -->
+            <p><strong>Horario de Atención:</strong></p>
+            <ul>
+                <li>Lunes a Viernes: 9:00 AM - 6:00 PM</li>
+                <li>Sábados 10:00 AM - 2:00 PM</li>
+                <li>Domingos y festivos: <strong> cerrado</strong></li>
+            </ul>
+        </section>
+        <!-- Sección del mapa -->
+        <div id="comollegar">
+            <h2>Cómo Llegar</h2>
+            <p>Utiliza el mapa interactivo para encontrar nuestra ubicación. Si habilitas la geolocalización, también
+                podrás calcular la ruta más rápida desde tu ubicación hasta nuestras oficinas.</p>
+        </div>
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+    </main>
+    <footer>
+        <!-- Pie de pagina con sus redes -->
+        <p id="copy23">&copy; 2023 LuminaCraft</p>
+        <div class="company-info">
+            <p><strong>Dirección:</strong> C. la Iglesia, 3, Huerta del Rey</p>
+            <p>Aviso legal | Política de privacidad</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../images/redes/facebook.png" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="../images/redes/x.png" alt="X" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../images/redes/instagram.png" alt="Instagram" width="30" height="30">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="../images/redes/tiktok.png" alt="TikTok" width="30" height="30">
+            </a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js" defer></script>
+    <script src="../js/mapa.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuminaCraft - Presupuesto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/sty-presupuesto.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Logo y barra de navegación -->
+        <img src="../images/logo/logo-lumina.png" alt="LuminaCraft" width="130" height="130">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Introducción al formulario de presupuesto -->
+        <h2>Solicita tu Presupuesto</h2>
+        <p>En LuminaCraft, ofrecemos soluciones personalizadas para transformar tus espacios con iluminación y diseño de
+            interiores.Completa el formulario para obtener un presupuesto adaptado a tus necesidades.</p>
+        <p>Selecciona el producto que necesitas, el plazo de entrega y los extras que deseas. Calcularemos
+            automáticamente el presupuesto para ti.</p>
+        <p>Si tienes dudas, no dudes en contactarnos. Estamos aquí para ayudarte.</p>
+
+        <!-- Formulario de presupuesto -->
+        <form id="form-presupuesto">
+            <!-- Sección de datos de contacto -->
+            <fieldset>
+                <legend>Datos del Contacto</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" maxlength="15">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" maxlength="40">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" maxlength="9">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+            <!-- Sección de opciones de presupuesto -->
+            <fieldset>
+                <legend>Opciones de Presupuesto</legend>
+                <label for="producto">Producto:</label>
+                <select name="producto" id="producto">
+                    <option id="option23">Elige tu presupuesto</option>
+                    <option value="100">Lámpara de diseño - 100€</option>
+                    <option value="200">Sistema de iluminación inteligente - 200€</option>
+                    <option value="300">Diseño completo de interiores - 300€</option>
+                </select>
+                <label for="plazo">Plazo (meses):</label>
+                <input type="number" name="plazo" id="plazo" value="0">
+                <fieldset>
+                    <legend>Extras:</legend>
+                    <label><input type="checkbox" name="extras" value="50">Instalación - 50€</label>
+                    <label><input type="checkbox" name="extras" value="30">Garantía extendida - 30€</label>
+                    <label><input type="checkbox" name="extras" value="20">Asesoramiento custom - 20€</label>
+                </fieldset>
+            </fieldset>
+            <!-- Sección de condiciones de privacidad -->
+            <fieldset>
+                <legend>Condiciones</legend>
+                <label>
+                    <input type="checkbox" name="condiciones" id="privacidad">
+                    Acepto las <a href="condiciones.html" target="_blank">condiciones de privacidad</a>.
+                </label>
+            </fieldset>
+            <!-- Total calculado desde JS -->
+            <p id="total">Total: 0€</p>
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="submit" id="reset">Reiniciar</button>
+        </form>
+    </main>
+    <!-- Pie de pagina con sus redes -->
+    <footer>
+        <p id="copy23">&copy; 2023 LuminaCraft</p>
+        <div class="company-info">
+            <p><strong>Dirección:</strong> C. la Iglesia, 3, Huerta del Rey</p>
+            <p>Aviso legal | Política de privacidad</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../images/redes/facebook.png" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="../images/redes/x.png" alt="X" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../images/redes/instagram.png" alt="Instagram" width="30" height="30">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="../images/redes/tiktok.png" alt="TikTok" width="30" height="30">
+            </a>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="../js/presupuesto.js"></script>
+</body>
+
+</html>

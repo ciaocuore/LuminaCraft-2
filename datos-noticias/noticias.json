@@ -1,0 +1,16 @@
+{
+  "noticias": [
+    {
+      "titulo": "Nueva colección de lámparas",
+      "descripcion": "Descubre nuestra colección de lámparas de diseño que transformaran tus espacios."
+    },
+    {
+      "titulo": "Promoción especial",
+      "descripcion": "Aprovecha un 20% de descuento en sistemas de iluminación inteligentes durante este mes."
+    },
+    {
+      "titulo": "Tendencias en diseño de interiores",
+      "descripcion": "Explora las ultimas tendencias en diseño de interiores para este año."
+    }
+  ]
+}

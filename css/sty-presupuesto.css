@@ -1,0 +1,76 @@
+/* Estilo para el formulario principal */
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+/* Estilo para los campos del formulario */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para los campos de entrada, selectores y textarea */
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+/* Estilo para los input */
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #ffcc00;
+    outline: none;
+    background-color: #ffffff;
+}
+
+/* Estilo para los botones del formulario */
+form button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Estilo para los botones del formulario al pasar el ratón por encima */
+form button:hover {
+    background-color: #ffd966;
+    transform: scale(1.05);
+}
+
+/* Estilo para el total y resultado*/
+#total {
+    font-weight: bold;
+    color: #ffcc00;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para etiqueta div */
+#option23 {
+    font-weight: bold;
+}
